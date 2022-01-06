@@ -8,10 +8,10 @@
     "url": "https://github.com/yuri2peter/ylui"
   },
   "scripts": {
-    "start": "http-server ./ -p 5000 -s"
+    "start": "http-server ./ -p 5000 -s -c-1"
   },
   "window": {
-    "title": "YLUI",
+    "title": "Liu Xuan",
     "icon": "link.png",
     "toolbar": false,
     "resizable": true,

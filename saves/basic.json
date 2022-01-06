@@ -2,7 +2,7 @@
   "configs": {
     "topTaskBar": false,
     "sound": false,
-    "wallpaper": "./res/img/wallpapers/bg1.jpg",
+    "wallpaper": "./res/img/wallpapers/bg16.png",
     "wallpaperBlur": false,
     "wallpaperSlide": false,
     "wallpaperSlideRandom": true,
@@ -72,6 +72,10 @@
       {
         "image": "./res/img/wallpapers/bg14.jpg",
         "preview": "./res/img/wallpapers/bg14_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg16.png",
+        "preview": "./res/img/wallpapers/bg16_1.png"
       }
     ],
     "pathRes": "./res",
@@ -409,6 +413,39 @@
       "url": "https://imgchr.com/",
       "customTile": "",
       "urlRandomToken": true
+    },
+    "my-resume": {
+      "addressBar": false,
+      "autoRun": 1,
+      "background": false,
+      "badge": 0,
+      "desc": "个人简历/resume",
+      "icon": {
+        "type": "fa",
+        "content": " fa-user",
+        "bg": "#6b96cf"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Liu Xuan",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "个人简历",
+      "url": "./res/apps/resume/index.html",
+      "customTile": "",
+      "urlRandomToken": true
     }
   },
   "shortcuts": [
@@ -419,39 +456,10 @@
       "hash": ""
     },
     {
-      "app": "yl-app-store",
-      "title": "应用商店",
+      "app": "my-resume",
+      "title": "个人简历/resume",
       "params": {},
       "hash": ""
-    },
-    {
-      "app": "yl-app-home",
-      "title": "YLUI 官网",
-      "params": {},
-      "hash": ""
-    },
-    {
-      "title": "代码库",
-      "children": [
-        {
-          "app": "ylui-documents",
-          "title": "在线文档",
-          "params": {},
-          "hash": ""
-        },
-        {
-          "app": "ylui-github",
-          "title": "github",
-          "params": {},
-          "hash": ""
-        },
-        {
-          "app": "ylui-gitee",
-          "title": "码云仓库",
-          "params": {},
-          "hash": ""
-        }
-      ]
     }
   ],
   "tiles": [
@@ -460,11 +468,11 @@
       "data": [
         {
           "x": 0,
-          "y": 6,
-          "w": 2,
-          "h": 2,
-          "app": "yl-app-store",
-          "title": "应用商店",
+          "y": 0,
+          "w": 6,
+          "h": 4,
+          "app": "my-resume",
+          "title": "个人简历/resume",
           "i": "91",
           "params": {},
           "hash": ""
@@ -490,28 +498,6 @@
           "i": "146",
           "params": {},
           "hash": ""
-        },
-        {
-          "x": 0,
-          "y": 0,
-          "w": 6,
-          "h": 4,
-          "app": "yl-app-home",
-          "title": "YLUI 官网",
-          "i": "147",
-          "params": {},
-          "hash": ""
-        },
-        {
-          "x": 2,
-          "y": 6,
-          "w": 4,
-          "h": 2,
-          "app": "ylui-documents",
-          "title": "在线文档",
-          "i": "158",
-          "params": {},
-          "hash": ""
         }
       ]
     }
@@ -532,45 +518,15 @@
       }
     ],
     "menu": {
+      "itemPushed-84": {
+        "app": "my-resume",
+        "title": "个人简历/resume",
+        "params": {},
+        "hash": ""
+      },
       "itemPushed-85": {
         "app": "yl-browser",
         "title": "浏览器",
-        "params": {},
-        "hash": ""
-      },
-      "itemPushed-89": {
-        "app": "yl-app-home",
-        "title": "YLUI 官网",
-        "params": {},
-        "hash": ""
-      },
-      "itemPushed-96": {
-        "app": "yl-system",
-        "title": "系统设置",
-        "params": {},
-        "hash": ""
-      },
-      "itemPushed-88": {
-        "app": "yl-app-store",
-        "title": "应用商店",
-        "params": {},
-        "hash": ""
-      },
-      "itemPushed-153": {
-        "app": "ylui-documents",
-        "title": "在线文档",
-        "params": {},
-        "hash": ""
-      },
-      "itemPushed-155": {
-        "app": "ylui-gitee",
-        "title": "码云仓库",
-        "params": {},
-        "hash": ""
-      },
-      "itemPushed-157": {
-        "app": "ylui-github",
-        "title": "github",
         "params": {},
         "hash": ""
       }
