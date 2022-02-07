@@ -15,7 +15,13 @@
 <body>
 <div id="app">
     <div id="resume">
-        <image id="resume-img" :src="resume['zh-ch']" alt="resume-zh-ch"></image>
+        <image
+            class="resume-img"
+            v-for="url in resume['zh-ch']"
+            :src="url"
+            :key="url"
+            alt="resume-zh-ch">
+        </image>
     </div>
 </div>
 <script>
@@ -23,7 +29,11 @@
         el:"#app",
         data:{
            resume: {
-               "zh-ch": './resume-zh-ch.jpg',
+               "zh-ch": [
+                   './resume-zh-ch-1.jpg?v=1644217182628',
+                   './resume-zh-ch-2.jpg?v=1644217182628',
+                   './resume-zh-ch-3.jpg?v=1644217182628',
+                ],
            }
         },
         created:function () {

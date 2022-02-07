@@ -2,3 +2,4 @@
 
 [YLUI官网](https://ylui.yuri2.cn) | [GITHUB](https://github.com/yuri2peter/ylui)
 
+npm run start
