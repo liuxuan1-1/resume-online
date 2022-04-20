@@ -419,7 +419,7 @@
       "autoRun": 1,
       "background": false,
       "badge": 0,
-      "desc": "个人简历/resume",
+      "desc": "resume",
       "icon": {
         "type": "fa",
         "content": " fa-user",
@@ -442,8 +442,30 @@
         "height": "y*0.8-80",
         "width": "x*0.8"
       },
-      "title": "个人简历",
+      "title": "resume",
       "url": "./res/apps/resume/index.html",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "h5Game1": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "game",
+      "icon": {
+        "type": "fa",
+        "content": "gamepad",
+        "bg": "#292929"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "version": "1.0.0",
+      "poweredBy": "",
+      "resizable": true,
+      "single": true,
+      "title": "game",
+      "url": "./res/apps/game/index.html",
       "customTile": "",
       "urlRandomToken": true
     }
@@ -451,13 +473,19 @@
   "shortcuts": [
     {
       "app": "yl-browser",
-      "title": "浏览器",
+      "title": "browser",
       "params": {},
       "hash": ""
     },
     {
       "app": "my-resume",
-      "title": "个人简历/resume",
+      "title": "resume",
+      "params": {},
+      "hash": ""
+    },
+    {
+      "app": "h5Game1",
+      "title": "game",
       "params": {},
       "hash": ""
     }
@@ -472,7 +500,7 @@
           "w": 6,
           "h": 4,
           "app": "my-resume",
-          "title": "个人简历/resume",
+          "title": "resume",
           "i": "91",
           "params": {},
           "hash": ""
@@ -494,7 +522,7 @@
           "w": 2,
           "h": 2,
           "app": "yl-browser",
-          "title": "浏览器",
+          "title": "browser",
           "i": "146",
           "params": {},
           "hash": ""
@@ -520,13 +548,13 @@
     "menu": {
       "itemPushed-84": {
         "app": "my-resume",
-        "title": "个人简历/resume",
+        "title": "resume",
         "params": {},
         "hash": ""
       },
       "itemPushed-85": {
         "app": "yl-browser",
-        "title": "浏览器",
+        "title": "browser",
         "params": {},
         "hash": ""
       }
